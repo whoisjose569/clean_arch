@@ -1,5 +1,4 @@
-from typing import List
-from src.domain.models.users import Users
+#pylint: disable= use-implicit-booleaness-not-comparison
 from src.infra.db.tests.users_repository import UsersRepositorySpy
 from .user_finder import UserFinder
 
