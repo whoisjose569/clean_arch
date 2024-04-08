@@ -7,7 +7,7 @@ class DBConnectionHandler:
         self.__connection_string = "{}://{}:{}@{}:{}/{}".format(
             'mysql+pymysql',
             'root',
-            '151096ara',
+            'senha',
             'localhost',
             '3306',
             'clean_database'
